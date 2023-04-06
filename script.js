@@ -96,4 +96,4 @@ class Github {
         // очистити інпут пошуку
         ui.clearProfile();
       }
-    })
+    });
