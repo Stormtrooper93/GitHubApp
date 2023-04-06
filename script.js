@@ -43,7 +43,7 @@ class Github {
             </div>
           </div>
           <h3 class="page-heading mb-3">Latest Repos</h3>
-          <div class="repos"></div>
+          <div class="repos"></div>`
       }
     
       showAlert(message, className) {
@@ -77,7 +77,7 @@ class Github {
     
     const searchUser = document.querySelector('.searchUser');
     
-    searchUser.addEventListener('keydown', (e) => {
+    searchUser.addEventListener('keyup', (e) => {
       const userText = e.target.value;
     
       if(userText.trim() !== '') {
